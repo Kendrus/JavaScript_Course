@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects</title>
+</head>
+<body>
+    <script>
+        const product={
+            name: 'socks',
+            price:1090
+        };
+        console.log(product);
+        console.log(product.name);
+        product.name='cotton socks';
+        console.log(product);
+
+        product.newproperty=true;
+        console.log(product);
+
+        delete product.newproperty;
+        console.log(product);
+
+
+        // const score={
+        //     wins:0,
+        //     losses:0,
+        //     ties:0,
+        // };
+
+        // if(result==='You win')
+        // {
+        //     score.wins+=1;
+        // }else if(result==='You lose'){
+        //     score.losses+=1;
+        // }else if(result==='Tie')
+        // {
+        //     score.tie+=1;
+        // }
+
+        const product2={
+            name:'shirt',
+            'delivery-time':'1 day',
+            rating:{
+                stars:4.5,
+                count:87
+            },
+            fun:function function1(){
+                console.log('function inside object');
+            }
+        };
+        console.log(product2);
+        console.log(product2['name']);
+     console.log(product2['delivery-time']);
+     console.log(product2.rating.count);
+     
+
+    //  sert a koi ?
+    //  localStorage.setItem('message','hello');
+
+    console.log('hello'.lenght);
+    console.log('hello'.toUpperCase());
+
+
+    const object1={
+        massage: 'hello',
+    };
+    const object2=object1;
+    
+    const object3={
+        message: 'Good job!'
+    }
+
+    console.log(object3===object1);
+    console.log(object2 === object1);
+
+    const object4={
+        message:'Good job!',
+        price:799
+    };
+    const{message,price}=object4;
+    console.log(message);
+    console.log(price);
+
+    const object5={
+        message:message
+    };
+
+    console.log(object5);
+
+
+
+
+     
+
+
+
+
+      
+
+
+    </script>
+</body>
+</html>
+
