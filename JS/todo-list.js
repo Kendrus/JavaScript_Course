@@ -49,3 +49,14 @@ const todoList = [{
   
     renderTodoList();
   }
+  function somme(a,b){
+    
+    return a+b;
+  }
+  somme();
+
+
+while(condition)
+{
+//traitement 
+}
